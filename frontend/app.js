@@ -1,4 +1,4 @@
-const API_URL = 'http://localhost:5000';
+const API_URL = 'https://blockchain-2-nnio.onrender.com';
 
 // Load blockchain data on page load
 document.addEventListener('DOMContentLoaded', () => {
@@ -210,4 +210,5 @@ function showMessage(message, type) {
         messageDiv.remove();
     }, 5000);
 }
+
 
